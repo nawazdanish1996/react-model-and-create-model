@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-model-and-create-portal/static/css/main.30e9032a.css",
+    "main.js": "/react-model-and-create-portal/static/js/main.8b291d87.js",
+    "index.html": "/react-model-and-create-portal/index.html",
+    "main.30e9032a.css.map": "/react-model-and-create-portal/static/css/main.30e9032a.css.map",
+    "main.8b291d87.js.map": "/react-model-and-create-portal/static/js/main.8b291d87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e9032a.css",
+    "static/js/main.8b291d87.js"
+  ]
+}
