@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.model-warpper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+
+    .model-container{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 20rem;
+        color: white;
+        background-color: purple;
+        padding: 1rem;
+        border-radius: .5rem;
+        user-select: none;
+        box-shadow: 0 0 10px yellow;
+
+        button{
+            border: none;
+            color: rgb(27, 88, 231);
+            font-weight: 500;
+            cursor: pointer;
+        
+            &:hover{
+                background-color: rgb(27, 88, 231);
+                color: white;
+            }
+        }
+        
+        button:nth-child(1){
+            background-color: black;
+            color: white;
+
+            &:hover{
+                background-color: red;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
